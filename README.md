@@ -2,7 +2,7 @@
 Topic modeling and analysis of focus shift in papers published in the journal-ASQ over the past 10 years
 
 <br>**Data collection**: All the papers published in the journal- ASQ from 2011 to 2021 are downloaded via API requests (requests_final.py) 
-<br>**Preparing the corpus**: Parsing the XML files to extract only relevant text (xml_to_text.py)  
+<br>**Preparing the corpus**: Parsing the XML files to extract only relevant text (xml_to_text_all.py)  
 <br>**Preprocessing the corpus**: preprocessing is done using using Python NLP toolkit (LDA_No_Essays_no_below=3.ipynb)  
 <br>**Building the topic clusters** based on Latent Dirichlet Allocation, Doc2vec and K-means clustering (LDA_No_Essays_no_below=3.ipynb, LDA_hyperparameter_tuning_fullcorpus.ipynb, LDA&Kmeans_onDoc2vec.ipynb)
 <br>**Analysis of focus shift** based on the topics identified by the model - Identify_methods_of_research_through_keywords.ipynb, Identify_methods_of_research_through_keywords.ipynb
