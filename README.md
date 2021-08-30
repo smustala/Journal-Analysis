@@ -6,7 +6,7 @@ Topic modeling and analysis of focus shift in papers published in the journal-AS
 <br>**Preprocessing the corpus**: preprocessing is done using using Python NLP toolkit (LDA_No_Essays_no_below=3.ipynb)  
 <br>**Building the topic clusters** based on Latent Dirichlet Allocation, Doc2vec and K-means clustering (LDA_No_Essays_no_below=3.ipynb, LDA_hyperparameter_tuning_fullcorpus.ipynb, LDA&Kmeans_onDoc2vec.ipynb)
 <br>**Analysis of focus shift** based on the topics identified by the model - Analysis_Charts.ipynb
-<br>Identifying methods of research based on word count of keywords: Identify_methods_of_research_through_keywords.ipynb
+<br>Identifying **methods of research** based on word count of keywords: Identify_methods_of_research_through_keywords.ipynb
 <br> https://public.tableau.com/views/Analysis-Methods_new/Methods?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link, https://public.tableau.com/views/Topic-wise_AttributesMethods/Method?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 <br>The **Tableau dashboard** of the analysis can be found at https://public.tableau.com/views/Trends-TopicsCitations/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link 
 
